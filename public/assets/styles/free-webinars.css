@@ -1,0 +1,38 @@
+.free-webinars-container .header-img {
+	background-image: url(/assets/imgs/free-webinars/freewebinars–1440x500.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+@media all and (min-width: 1441px) {
+	.free-webinars-container .header-img {
+		background-image: url(/assets/imgs/free-webinars/freewebinars-1920x600.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.free-webinars-container .header-img {
+		background-image: url(/assets/imgs/free-webinars/freewebinars–1024x400.jpg);
+		padding-top: 39%;
+	}
+
+	.sm-width {
+		padding: 0 5%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.free-webinars-container .header-img {
+		background-image: url(/assets/imgs/free-webinars/freewebinars–768x300.jpg);
+	}
+}
+
+@media all and (max-width: 639px) {
+	.free-webinars-container .header-img {
+		background-image: url(/assets/imgs/free-webinars/freewebinars–576x300.jpg);
+		padding-top: 0;
+	}
+}

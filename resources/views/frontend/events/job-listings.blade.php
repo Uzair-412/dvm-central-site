@@ -1,0 +1,6 @@
+@extends('frontend.layouts.virtual')
+@section('content')
+    <div class="container content-container pt-6 mx-auto xl:px-10 pb-10">
+        @livewire('job-listing', ['event' => $event])
+    </div>
+@endsection

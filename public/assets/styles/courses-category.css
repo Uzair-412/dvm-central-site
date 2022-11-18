@@ -1,0 +1,51 @@
+.course-category-card::before {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: -15px;
+	right: -15px;
+	border-bottom-left-radius: 50%;
+	z-index: -1;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.course-category-card:nth-of-type(odd):before {
+	background-color: #418ffe;
+}
+
+.course-category-card:nth-of-type(even):before {
+	background-color: #f9fafb;
+}
+
+.course-category-card:hover::before {
+	width: 375px;
+	height: 375px;
+}
+
+
+.course-category-card:nth-of-type(odd):hover .course-category-title,
+.course-category-card:nth-of-type(odd):hover .no {
+	color: #fff;
+}
+
+.course-category-card:nth-of-type(odd):hover .course-category-info,
+.course-category-card:nth-of-type(odd):hover .course-category-no div:last-of-type,
+.course-category-card:nth-of-type(odd):hover .course-category-enrollments div:last-of-type {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.courses-metrics img {
+	width: 40px;
+}
+
+@media all and (max-width: 639px) {
+	.course-category-card:hover::before {
+		width: 125%;
+		height: 125%;
+	}
+}

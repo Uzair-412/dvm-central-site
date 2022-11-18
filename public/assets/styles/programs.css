@@ -1,0 +1,67 @@
+.programs-container .header-img {
+	background-image: url(/img/programs/programs-headerx1440.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+.edu-program-src:hover svg {
+	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	-moz-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	-o-transform: translateX(5px);
+}
+
+.edu-program::after {
+	content: '';
+	position: absolute;
+	bottom: -87.5px;
+	right: -87.5px;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	z-index: -1;
+	background-color: #f9fafb;
+}
+
+@media all and (max-width: 640px) {
+	.edu-program::after {
+		bottom: -75px;
+		right: -75px;
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media all and (min-width: 1441px) {
+	.programs-container .header-img {
+		background-image: url(/img/programs/programs-headerx1920.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.programs-container .header-img {
+		background-image: url(/img/programs/programs-headerx1024.jpg);
+		padding-top: 39%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.programs-container .header-img {
+		background-image: url(/img/programs/programs-headerx768.jpg);
+	}
+}
+
+@media all and (max-width: 639px) {
+	.programs-container .header-img {
+		background-image: url(/img/programs/programs-headerx576.jpg);
+		padding-top: 0%;
+	}
+}

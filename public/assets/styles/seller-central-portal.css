@@ -1,0 +1,65 @@
+.seller-central-portal-container .header-img {
+	background-image: url(/assets/imgs/seller-central-portal/sellercentralportal-1440x500.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+.grid li {
+	max-width: 250px;
+}
+
+.portal-img-wrapper {
+	height: auto;
+	padding-top: 31%;
+}
+
+.portal-2-img-wrapper {
+	height: auto;
+	padding-top: 40%;
+}
+
+@media all and (min-width: 1441px) {
+	.seller-central-portal-container .header-img {
+		background-image: url(/assets/imgs/seller-central-portal/sellercentralportal-1920x600.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1023px) {
+	.seller-central-portal-container .header-img {
+		background-image: url(/assets/imgs/seller-central-portal/sellercentralportal-1024x400.jpg);
+		padding-top: 39%;
+	}
+
+	.sm-width {
+		padding: 0 5%;
+	}
+
+	.portal-2-img-wrapper {
+		height: auto;
+		padding-top: 50%;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.seller-central-portal-container .header-img {
+		background-image: url(/assets/imgs/seller-central-portal/sellercentralportal-768x300.jpg);
+	}
+
+	.portal-img-wrapper {
+		padding-top: 54%;
+	}
+}
+
+@media all and (max-width: 639px) {
+	.seller-central-portal-container .header-img {
+		background-image: url(/assets/imgs/seller-central-portal/sellercentralportal–576x300.jpg);
+		padding-top: 0;
+	}
+
+	.grid li {
+		max-width: 100%;
+	}
+}

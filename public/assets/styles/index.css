@@ -1,0 +1,112 @@
+.home-hero .swiper-slide {
+	padding-top: 41%;
+}
+
+.hm-swiper-button-prev-wrapper,
+.hm-swiper-button-next-wrapper {
+	height: 66.5%;
+}
+
+.shop-by-wrapper {
+	width: 250px !important;
+}
+
+.swiper-pagination-bullet {
+	opacity: 1;
+}
+
+.categories-kind {
+	margin-top: -15%;
+}
+
+.business-type-category-img-wrapper {
+	padding-top: 100%;
+}
+
+.business-type-category-title {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transform: translate(-50%, -50%) scale(0);
+	-moz-transform: translate(-50%, -50%) scale(0);
+	-ms-transform: translate(-50%, -50%) scale(0);
+	-o-transform: translate(-50%, -50%) scale(0);
+}
+
+.business-type-category-img-wrapper:hover .business-type-category-title {
+	transform: translate(-50%, -50%) scale(1);
+	-webkit-transform: translate(-50%, -50%) scale(1);
+	-moz-transform: translate(-50%, -50%) scale(1);
+	-ms-transform: translate(-50%, -50%) scale(1);
+	-o-transform: translate(-50%, -50%) scale(1);
+}
+
+.top-categories-img-wrapper,
+.hot-selling-item-img-wrapper {
+	min-width: 180px;
+	max-width: 200px;
+	width: auto;
+	min-height: 180px;
+	height: auto;
+	max-height: 200px;
+}
+
+.top-categories-img-wrapper img {
+	width: 95%;
+}
+
+.deal-of-the-day-img-wrapper {
+	padding-top: 53.76%;
+	height: auto;
+}
+
+.special-offers .img-wrapper {
+	height: auto;
+	padding-top: 15.23%;
+	max-width: 1090px;
+}
+
+.special-offers .img-wrapper:last-of-type {
+	max-width: 530px;
+}
+
+.hot-new-arrival-title {
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+.hot-new-arrival:hover .how-new-arrival-title {
+	color: #000;
+}
+
+@media all and (max-width: 1023px) {
+	.special-offers .img-wrapper {
+		padding-top: 22.47%;
+	}
+
+	.special-offers .img-wrapper:last-of-type {
+		padding-top: 23.23%;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.hm-swiper-button-prev-wrapper,
+	.hm-swiper-button-next-wrapper {
+		height: 73%;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.special-offers .img-wrapper:last-of-type {
+		padding-top: 46.23%;
+		width: 100%;
+	}
+}

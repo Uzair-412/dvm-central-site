@@ -1,0 +1,54 @@
+.switch-wrapper {
+	width: 50px;
+	transition: background 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+}
+.switch-circle {
+	width: 26px;
+	height: 26px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+.circle-border {
+	border: 1px solid #418ffe;
+}
+.switch-toggle {
+	transform: translateX(90%);
+	-webkit-transform: translateX(90%);
+	-moz-transform: translateX(90%);
+	-ms-transform: translateX(90%);
+	-o-transform: translateX(90%);
+	transition: transform 0.2s ease-in-out;
+	-webkit-transition: transform 0.2s ease-in-out;
+	-moz-transition: transform 0.2s ease-in-out;
+	-ms-transition: transform 0.2s ease-in-out;
+	-o-transition: transform 0.2s ease-in-out;
+}
+
+.social-login-container img {
+	width: 20px;
+	height: 20px;
+}
+
+.social-login-container .linkedin img {
+	width: 26px;
+	height: 26px;
+}
+
+.social-login-container .btn::after,
+.social-login-container .btn::before {
+   background-color: #F3F4F6;
+}
+
+.login-right-content svg {
+	min-width: 48px;
+	max-width: 48px;
+	min-height: 48px;
+	max-height: 48px;
+}

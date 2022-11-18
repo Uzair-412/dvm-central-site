@@ -1,0 +1,46 @@
+.educational-programs-container .header-img {
+	background-image: url(/assets/imgs/educational-resources/educationalresources-1440x500.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+.grid div {
+	max-width: 400px;
+}
+
+@media all and (min-width: 1441px) {
+	.educational-programs-container .header-img {
+		background-image: url(/assets/imgs/educational-resources/educationalresources-1920x600.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.educational-programs-container .header-img {
+		background-image: url(/assets/imgs/educational-resources/educationalresources-1024x400.jpg);
+		padding-top: 39%;
+	}
+
+	.sm-width {
+		padding: 0 5%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.educational-programs-container .header-img {
+		background-image: url(/assets/imgs/educational-resources/educationalresources-768x300.jpg);
+	}
+}
+
+@media all and (max-width: 639px) {
+	.educational-programs-container .header-img {
+		background-image: url(/assets/imgs/educational-resources/educationalresources–576x300.jpg);
+		padding-top: 0;
+	}
+
+	.grid div {
+		max-width: 100%;
+	}
+}

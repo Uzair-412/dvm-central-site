@@ -1,0 +1,30 @@
+.active-db {
+	background-color: #418ffe;
+	color: #fff;
+}
+
+.db-links {
+	transition: all 0.3s ease-in-out;
+}
+
+.left-col-wrapper .db-links:hover {
+	background-color: #fff;
+}
+
+.wishlist-img-wrapper {
+	width: 75px;
+	height: 75px;
+}
+
+.vendor-item-quantity {
+	width: 30px;
+}
+
+@media all and (max-width: 639px) {
+	.wishlist-img-wrapper {
+		min-width: 50px;
+		width: 50px;
+		min-height: 50px;
+		height: 50px;
+	}
+}

@@ -1,0 +1,47 @@
+.conversation-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.conversation-list {
+	width: 20%;
+	padding: 0.5rem;
+}
+.conversation-list ul {
+	list-style-type: none;
+	padding: 0;
+}
+.chat-list {
+	width: 80%;
+}
+.customer-chat,
+.vendor-chat {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+	align-items: center;
+}
+
+.customer-chat .title-word,
+.vendor-chat .title-word {
+	width: 2rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.vendor-chat {
+	justify-content: start;
+	align-items: center;
+}
+
+.customer-chat {
+	flex-direction: row-reverse;
+}
+
+.active {
+	border-color: rgb(154, 152, 152);
+	background: rgb(237, 237, 237);
+}
+.user-chat{
+	cursor: pointer;
+}

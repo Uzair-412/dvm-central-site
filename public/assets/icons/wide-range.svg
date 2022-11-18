@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #292929;
+      }
+    </style>
+  </defs>
+  <image id="Background" width="64" height="64" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAqUlEQVR4nO3QgQ0AMQyDwHz33zmvTgFSuQmwv93dedh5efzVAYIGVAcIGlAdIGhAdYCgAdUBggZUBwgaUB0gaEB1gKAB1QGCBlQHCBpQHSBoQHWAoAHVAYIGVAcIGlAdIGhAdYCgAdUBggZUBwgaUB0gaEB1gKAB1QGCBlQHCBpQHSBoQHWAoAHVAYIGVAcIGlAdIGhAdYCgAdUBggZUBwgaUB0gaODMzA9VOgR8F5U4SQAAAABJRU5ErkJggg=="/>
+  <path id="Rectangle_2_copy_2" data-name="Rectangle 2 copy 2" class="cls-1" d="M41,7.607h8.429V38.168H41V7.607h0Z"/>
+  <path id="Rectangle_2_copy_3" data-name="Rectangle 2 copy 3" class="cls-1" d="M52.087,13.206h8.281v29H52.087v-29h0Z"/>
+  <path id="Rectangle_2_copy_4" data-name="Rectangle 2 copy 4" class="cls-1" d="M28.788,17.624h9.465V57.052H28.788V17.624h0Z"/>
+  <path id="Rectangle_2_copy_5" data-name="Rectangle 2 copy 5" class="cls-1" d="M16.4,7.99h9.465V47.419H16.4V7.99h0Z"/>
+  <path id="Rectangle_2_copy_6" data-name="Rectangle 2 copy 6" class="cls-1" d="M3.941,16.989h9.615v17.3H3.941v-17.3h0Z"/>
+  <path id="Triangle_1" data-name="Triangle 1" class="cls-2" d="M8.875,11.719L10.844,14.5H6.906Z"/>
+  <path id="Triangle_1_copy" data-name="Triangle 1 copy" class="cls-2" d="M8.873,39.628l-1.984-2.75h3.969Z"/>
+  <path id="Triangle_1_copy_2" data-name="Triangle 1 copy 2" class="cls-2" d="M21.25,3.031l1.969,2.75H19.281Z"/>
+  <path id="Triangle_1_copy_2-2" data-name="Triangle 1 copy 2" class="cls-2" d="M21.222,52.435l-1.984-2.75h3.969Z"/>
+  <path id="Triangle_1_copy_3" data-name="Triangle 1 copy 3" class="cls-2" d="M33.578,12.656l1.984,2.75H31.594Z"/>
+  <path id="Triangle_1_copy_3-2" data-name="Triangle 1 copy 3" class="cls-2" d="M33.571,62.04l-1.984-2.75h3.969Z"/>
+  <path id="Triangle_1_copy_4" data-name="Triangle 1 copy 4" class="cls-2" d="M45.016,2.563L47,5.313H43.031Z"/>
+  <path id="Triangle_1_copy_4-2" data-name="Triangle 1 copy 4" class="cls-2" d="M45.005,43.287l-1.984-2.75H46.99Z"/>
+  <path id="Triangle_1_copy_5" data-name="Triangle 1 copy 5" class="cls-2" d="M56.453,8.063l1.953,2.75H54.5Z"/>
+  <path id="Triangle_1_copy_5-2" data-name="Triangle 1 copy 5" class="cls-2" d="M56.44,47.4l-1.984-2.75h3.969Z"/>
+</svg>

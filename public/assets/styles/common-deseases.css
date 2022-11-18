@@ -1,0 +1,96 @@
+.cmn-deseases-type-wrapper .underline-anchors::before {
+	width: 0;
+}
+
+.cmn-deseases-type-wrapper .underline-anchors::after {
+	transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-webkit-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-moz-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-ms-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-o-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.cmn-deseases-container .header-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 31.25%;
+}
+
+.in-active {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #418ffe;
+	z-index: -1;
+	transform: scaleX(0);
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transform: scaleX(0);
+	-moz-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	-o-transform: scaleX(0);
+	transform-origin: left;
+}
+
+.active {
+	transform: scaleX(1) !important;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transform: scaleX(1) !important;
+	-moz-transform: scaleX(1) !important;
+	-ms-transform: scaleX(1) !important;
+	-o-transform: scaleX(1) !important;
+}
+
+.active-link.underline-anchors::after {
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+}
+
+@media all and (min-width: 1441px) {
+	.cmn-deseases-container .header-img {
+		background-image: url(..//imgs/common-deseases/cmn-deseasex1920.jpg);
+		padding-top: 31.25%;
+	}
+}
+
+@media all and (max-width: 1440px) {
+	.cmn-deseases-container .header-img {
+		background-image: url(..//imgs/common-deseases/cmn-deseasex1440.jpg);
+		padding-top: 34.72%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.cmn-deseases-container .header-img {
+		background-image: url(..//imgs/common-deseases/cmn-deseasex1024.jpg);
+		padding-top: 39.06%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.cmn-deseases-container .header-img {
+		background-image: url(..//imgs/common-deseases/cmn-deseasex768.jpg);
+	}
+}
+
+@media all and (max-width: 639px) {
+	.cmn-deseases-container .header-img {
+		background-image: url(..//imgs/common-deseases/cmn-deseasex576.jpg);
+		padding-top: 0%;
+	}
+}
+
+ 

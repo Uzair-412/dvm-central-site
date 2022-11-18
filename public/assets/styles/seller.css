@@ -1,0 +1,44 @@
+.seller-store-search-wrapper .btn {
+	max-width: 100px;
+}
+
+
+
+
+.hs-img {
+	width: 100%;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+
+.seller-more-links-container {
+	width: 270px;
+	max-width: 60vw;
+}
+
+@media all and (min-width: 1024px) {
+	.seller-store-search-wrapper {
+		width: 100%;
+		max-width: 350px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.seller-store-search-wrapper .btn {
+		max-width: 90px;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.seller-more-links-container {
+		width: 200px;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.mob-seller-info {
+		grid-template-columns: 1fr;
+	}
+}
+

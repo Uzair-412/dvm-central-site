@@ -1,0 +1,39 @@
+.cart-img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+.vendor-item-quantity {
+	width: 40px;
+}
+
+.shipping-cost-form {
+	width: 90vw;
+	max-width: 400px;
+}
+
+.preferred-delivery-options-wrapper {
+	max-width: 400px;
+}
+
+.user-address-wrapper span:first-of-type {
+	min-width: 75px;
+}
+
+@media all and (max-width: 640px) {
+	.cart-img {
+		min-width: 30px;
+		min-height: 30px;
+	}
+
+	.vendor-item-quantity {
+		width: 30px;
+	}
+}
+
+@media all and (max-height: 600px) and (orientation: landscape) {
+	.shipping-cost-detail-wrapper {
+		align-items: flex-start;
+	}
+}

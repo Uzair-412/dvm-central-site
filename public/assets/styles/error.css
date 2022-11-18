@@ -1,0 +1,131 @@
+#error-page {
+	visibility: hidden;
+}
+
+#error-page h1 {
+	mix-blend-mode: screen;
+	line-height: 0.75;
+}
+
+#error-page h1 span {
+	display: inline-block;
+	font-size: 13rem;
+}
+
+.wave-loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 350px;
+	width: 350px;
+	background: linear-gradient(#000, rgba(65, 143, 254, 0.75));
+	border-radius: 100%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.wave {
+	position: absolute;
+	height: 95%;
+	width: 95%;
+	background: white;
+	left: 0%;
+}
+
+.wave--0 {
+	top: -5%;
+	left: 0%;
+	width: 100%;
+	border-radius: 40%;
+	animation: wave0 9s linear infinite running;
+	transform: scale(2);
+	background: rgba(0, 0, 0, 0.15);
+}
+
+.wave--1 {
+	top: -5%;
+	left: 10%;
+	border-radius: 35%;
+	animation: wave1 8s linear infinite running;
+	transform: scale(1.2);
+	background: rgba(0, 0, 0, 0.15);
+}
+
+.wave--2 {
+	border-radius: 35%;
+	transform: rotate(50deg);
+	top: -50%;
+	left: -10%;
+	animation: wave2 7s linear infinite running;
+	height: 120%;
+	width: 120%;
+	background-color: rgba(65, 143, 254, 0.15);
+}
+
+@media all and (max-width: 1440px) {
+	.wave-loader {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#error-page h1 span {
+		font-size: 10rem;
+	}
+
+	.wave-loader {
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.wave-loader {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media all and (max-width: 639px) {
+	#error-page h1 span {
+		font-size: 6rem;
+	}
+
+	.wave-loader {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@keyframes wave1 {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes wave2 {
+	0% {
+		transform: rotate(25deg);
+	}
+	100% {
+		transform: rotate(calc(25deg + 360deg));
+	}
+}
+
+@keyframes wave0 {
+	0% {
+		transform: rotate(20deg);
+	}
+	100% {
+		transform: rotate(calc(20deg + 360deg));
+	}
+}

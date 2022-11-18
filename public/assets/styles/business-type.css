@@ -1,0 +1,34 @@
+.bt-open-icon {
+	top: 50%;
+	right: 2.5%;
+	transform: translate(-2.5%, -50%);
+	transition: transform 0.3s ease-in-out;
+	-webkit-transform: translate(-2.5%, -50%);
+	-moz-transform: translate(-2.5%, -50%);
+	-ms-transform: translate(-2.5%, -50%);
+	-o-transform: translate(-2.5%, -50%);
+}
+.bt-accordion-opener {
+	cursor: pointer;
+	width: max-content;
+	transition: color 0.3s ease-in-out;
+}
+.bt-text-hider {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-in-out;
+}
+
+.hs-img {
+	width: 100%;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+/* @media all and (min-width: 1280px) {
+	.filter-categories-container {
+		min-width: 375px;
+		width: 100%;
+		max-width: 375px;
+	}
+} */

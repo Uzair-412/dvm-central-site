@@ -1,0 +1,72 @@
+.associations-container .header-img {
+	background-image: url(/img/associations/resourcesx1440.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+.assoc-text-hider {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-in-out;
+}
+
+.assoc-open-icon {
+	top: 50%;
+	right: 2.5%;
+	transform: translate(-2.5%, -50%);
+	transition: transform 0.3s ease-in-out;
+	-webkit-transform: translate(-2.5%, -50%);
+	-moz-transform: translate(-2.5%, -50%);
+	-ms-transform: translate(-2.5%, -50%);
+	-o-transform: translate(-2.5%, -50%);
+}
+
+.association-listing-img-wrapper {
+	padding-top: 30%;
+	height: auto;
+}
+
+.association-listing-link:hover svg {
+	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	-moz-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	-o-transform: translateX(5px);
+}
+
+@media all and (min-width: 1441px) {
+	.associations-container .header-img {
+		background-image: url(/img/associations/resourcesx1920.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.associations-container .header-img {
+		background-image: url(/img/associations/resourcesx1024.jpg);
+		padding-top: 39%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.associations-container .header-img {
+		background-image: url(/img/associations/resourcesx768.jpg);
+	}
+
+	.association-listing-img-wrapper {
+		padding-top: 40%;
+	}
+}
+
+@media all and (max-width: 639px) {
+	.associations-container .header-img {
+		background-image: url(/img/associations/resourcesx576.jpg);
+		padding-top: 0%;
+	}
+
+	.association-listing-img-wrapper {
+		padding-top: 50%;
+	}
+}

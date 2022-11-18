@@ -1,0 +1,52 @@
+.event-banner-wrapper {
+	height: auto;
+	padding-top: 100%;
+}
+
+.years-month-wrapper .underline-anchors::before {
+	background-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+.years-month-wrapper .underline-anchors::before,
+.years-month-wrapper .underline-anchors::after {
+	transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-webkit-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-moz-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-ms-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+	-o-transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.trade-shows-container .header-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(/assets/imgs/trade-shows/tc-bannerx1440.jpg);
+	padding-top: 35%;
+}
+
+@media all and (min-width: 1441px) {
+	.trade-shows-container .header-img {
+		background-image: url(/assets/imgs/trade-shows/tc-bannerx1920.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.trade-shows-container .header-img {
+		background-image: url(/assets/imgs/trade-shows/tc-bannerx1024.jpg);
+		padding-top: 39%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.trade-shows-container .header-img {
+		background-image: url(/assets/imgs/trade-shows/tc-bannerx768.jpg);
+	}
+}
+
+@media all and (max-width: 639px) {
+	.trade-shows-container .header-img {
+		background-image: url(/assets/imgs/trade-shows/tc-bannerx576.jpg);
+		padding-top: 0%;
+	}
+}

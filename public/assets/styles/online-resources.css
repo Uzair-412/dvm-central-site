@@ -1,0 +1,91 @@
+.online-resources-container .header-img {
+	background-image: url(..//imgs/resources/vet-resourcesx1440.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 35%;
+}
+
+.grid-item {
+	float: left;
+	width: 33.33%;
+}
+
+.masonry-col {
+	width: calc(100% + 1.5rem);
+}
+
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.resource-card ul::after {
+	content: '';
+	position: absolute;
+	top: -87.5px;
+	right: -87.5px;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	z-index: 1;
+	background-color: #f9fafb;
+}
+
+.resource-card li {
+	position: relative;
+	z-index: 10;
+}
+
+@media all and (min-width: 1441px) {
+	.online-resources-container .header-img {
+		background-image: url(..//imgs/resources/vet-resourcesx1920.jpg);
+		padding-top: 31%;
+	}
+}
+
+@media all and (max-width: 1279px) {
+	.grid-item {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.online-resources-container .header-img {
+		background-image: url(..//imgs/resources/vet-resourcesx1024.jpg);
+		padding-top: 39%;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.online-resources-container .header-img {
+		background-image: url(..//imgs/resources/vet-resourcesx768.jpg);
+	}
+
+	.masonry-col {
+		width: 100%;
+	}
+
+	.grid-item {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 639px) {
+	.online-resources-container .header-img {
+		background-image: url(..//imgs/resources/vet-resourcesx576.jpg);
+		padding-top: 0%;
+	}
+
+	.resource-card ul::after {
+		top: -75px;
+		right: -75px;
+		width: 150px;
+		height: 150px;
+	}
+}
